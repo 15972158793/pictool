@@ -1,0 +1,2 @@
+1.若未安装AdobeAIR先安装,再安装BigShear
+2.BigShear工具可以切割图片.
