@@ -1,0 +1,14 @@
+pip安装
+sudo easy_install pip
+
+mac上安装apk到安卓手机
+   (1)brew安装
+   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   (2)adb安装
+   brew cask install android-platform-tools
+   (3)adb install apk路径
+
+bob安装(用于各种方式翻译)
+   brew cash install bob
+
+ 
