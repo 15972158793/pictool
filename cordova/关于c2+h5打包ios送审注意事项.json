@@ -1,0 +1,17 @@
+1.WKWebView替换UIWebView
+cordova plugin add cordova-plugin-wkwebview-engine
+删除CordovaLibrary下Private/Plugin/CDVUIWebView...目录,剩下的全局搜索去掉UIWebView过机审
+
+2.c2工程打包ios问题汇总
+(1)需要构建本地服务器，安装以下插件
+cordova plugin add https://github.com/floatinghotpot/cordova-httpd.git
+
+(2)解决读取本地文件问题,安装以下插件
+cordova plugin add cordova-plugin-file --save
+
+(3)遇到需要请求下载文件,安装以下插件
+cordova plugin add cordova-plugin-wkwebview-file-xhr
+
+3.h5工程打包ios问题
+(1)声音加载问题,来源于不同的音频库处理方式不一样
+(2)读取本地json或者js问题,可以通过json转js对象,在html中加载规避

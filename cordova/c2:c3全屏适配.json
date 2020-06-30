@@ -1,0 +1,10 @@
+1.项目适配模式选择:
+  (1)横屏 Cover+Scale Inner  保持高度一直可见
+  (2)竖屏 Cover+Scale Outer 保持宽度一直可见
+2.边缘UI节点采用Behaviour: Anchor
+
+3.根据分辨率比调整相对位置
+(1)c2: Browser.ScreenHeight/Browser.ScreenWidth
+(2)c3: PlatformInfo.ScreenHeight / PlatformInfo.ScreenHeight
+
+4.App与手机h5采用全面屏适配,PC端访问采用Auto+Letterbox Scale
